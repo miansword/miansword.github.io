@@ -395,11 +395,9 @@ body {
 }
 .article-inner {
   overflow: hidden;
-  background-color: #f9f9f9;
 }
 .article-page-inner {
   overflow: hidden;
-  background-color: #f9f9f9;
 }
 .article-meta:before,
 .article-meta:after {
