@@ -980,8 +980,6 @@ a.article-title:hover {
   line-height: 28px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
