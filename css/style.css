@@ -491,12 +491,11 @@ a.article-title:hover {
 }
 .article-entry img,
 .article-entry video {
-  max-width: 80%;
+  max-width: 90%;
   height: auto;
   display: block;
   margin: 2em auto;
-  -webkit-box-shadow: 2px 2px 4px #bbb;
-  box-shadow: 2px 2px 4px #bbb;
+/*box-shadow: 2px 2px 4px #bbb*/
   border: 1px solid #ddd;
   -webkit-border-radius: 3px;
   border-radius: 3px;
