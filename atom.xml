@@ -4,7 +4,7 @@
   <subtitle><![CDATA[十年磨剑不为名，千锤不芒又如何]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://miansword.com/"/>
-  <updated>2015-05-27T02:30:53.000Z</updated>
+  <updated>2015-06-04T12:46:26.000Z</updated>
   <id>http://miansword.com/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://miansword.com/hexo/new-hexo/"/>
     <id>http://miansword.com/hexo/new-hexo/</id>
     <published>2015-05-19T09:24:08.000Z</published>
-    <updated>2015-05-27T02:30:53.000Z</updated>
-    <content type="html"><![CDATA[<p>这是我使用<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>后创建的第一个页面！这是内容页，我在测试文章的发布功能。</p>
+    <updated>2015-06-04T12:46:26.000Z</updated>
+    <content type="html"><![CDATA[<p>这是我使用<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>后创建的第一个页面！这是内容页，我在测试文章的发布功能。<br><img src="http://7xjh3u.com1.z0.glb.clouddn.com/new-hexo-1.jpg" alt="new-hexo-1"></p>
 <h1 id="使用后感">使用后感</h1><h2 id="优点">优点</h2><ul>
 <li>网站配置过程中还是相当便利的，几条简单命令，一些简单的配置（复制粘贴），基本就可以生成一个比较不错的站点了（当然这得益<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">Hexo主题</a>啦！）</li>
 <li>自带Markdown写作格式，让博主更方便地创造内容，已不用再关注排版，更抛离了传统的后台内容写作方式，随便一个编辑器就可以创作你的神文啦。不过还是需要懂得基本的Markdown格式，不然没有效果哦。<h2 id="缺点">缺点</h2></li>
@@ -38,7 +38,7 @@
 <h2 id="部署服务器命令（如github）">部署服务器命令（如github）</h2><figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo deloy</span><br></pre></td></tr></table></figure>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>这是我使用<a href="http://hexo.io/">Hexo</a>后创建的第一个页面！这是内容页，我在测试文章的发布功能。</p>
+    <![CDATA[<p>这是我使用<a href="http://hexo.io/">Hexo</a>后创建的第一个页面！这是内容页，我在测试文章的发布功能。<br><img src="http://7xjh3u.com1.z0.glb.clouddn.com/new-hexo-1.jpg" alt="new-hexo-1"></p>
 <h1 id="使用后感">使用后感</h1><h2 id="优点">优点</h2><ul>
 <li>网站配置过程中还是相当便利的，几条简单命令，一些简单的配置（复制粘贴），基本就可以生成一个比较不错的站点了（当然这得益<a href="https://github.com/hexojs/hexo/wiki/Themes">Hexo主题</a>啦！）</li>
 <li>自带Markdown写作格式，让博主更方便地创造内容，已不用再关注排版，更抛离了传统的后台内容写作方式，随便一个编辑器就可以创作你的神文啦。不过还是需要懂得基本的Markdown格式，不然没有效果哦。<h2 id="缺点">缺点</h2></li>
