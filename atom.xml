@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[无名の剑]]></title>
+  <subtitle><![CDATA[十年磨剑不为名，千锤不芒又如何]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://miansword.com/"/>
+  <updated>2015-05-27T02:30:53.000Z</updated>
+  <id>http://miansword.com/</id>
+  
+  <author>
+    <name><![CDATA[miansword]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[使用Hexo系统建站后感]]></title>
+    <link href="http://miansword.com/hexo/new-hexo/"/>
+    <id>http://miansword.com/hexo/new-hexo/</id>
+    <published>2015-05-19T09:24:08.000Z</published>
+    <updated>2015-05-27T02:30:53.000Z</updated>
+    <content type="html"><![CDATA[<p>这是我使用<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>后创建的第一个页面！这是内容页，我在测试文章的发布功能。</p>
+<h1 id="使用后感">使用后感</h1><h2 id="优点">优点</h2><ul>
+<li>网站配置过程中还是相当便利的，几条简单命令，一些简单的配置（复制粘贴），基本就可以生成一个比较不错的站点了（当然这得益<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">Hexo主题</a>啦！）</li>
+<li>自带Markdown写作格式，让博主更方便地创造内容，已不用再关注排版，更抛离了传统的后台内容写作方式，随便一个编辑器就可以创作你的神文啦。不过还是需要懂得基本的Markdown格式，不然没有效果哦。<h2 id="缺点">缺点</h2></li>
+<li>没有了传统网站后台编辑器的便利，添加文章后，需要寻找相应的md文件去修改内容，才能显示到内容。</li>
+<li>所用添加文章，生成内容等等，没有了人性化的UI界面，全部需要运行命令来解决，建站入门门槛相对的高。<a id="more"></a>
+<h1 id="使用命令">使用命令</h1>安卓hexo之前，你的电脑需要先安装好<a href="https://nodejs.org/" target="_blank" rel="external">node.js</a>和<a href="http://git-scm.com/" target="_blank" rel="external">git</a>两个工具，才能正常地使用hexo，为了你更轻松地安装并运行hexo系统，建议这两个工具请自行百度如何安装。</li>
+</ul>
+<hr>
+<p><em>以下命令中<strong><code>$</code></strong>不属于命令内，请不要输入。</em></p>
+<h2 id="安装hexo">安装hexo</h2><figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line"><span class="variable">$ </span>npm install -g hexo-cli</span><br><span class="line"><span class="variable">$ </span>hexo init &lt;folder&gt;</span><br><span class="line"><span class="variable">$ </span>cd &lt;folder&gt;</span><br><span class="line"><span class="variable">$ </span>npm install</span><br></pre></td></tr></table></figure>
+<h2 id="新建文章命令">新建文章命令</h2><figure class="highlight actionscript"><table><tr><td class="code"><pre><span class="line">$ hexo <span class="keyword">new</span> <span class="string">"你的标题（非中文）"</span></span><br></pre></td></tr></table></figure>
+<h2 id="生成静态文件命令">生成静态文件命令</h2><p>没有修改完配置文件或者模板，或者文件，以防存在缓存，都需要重新生成一次静态文件。<br><figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo generate</span><br></pre></td></tr></table></figure></p>
+<h2 id="本地运行命令">本地运行命令</h2><figure class="highlight axapta"><table><tr><td class="code"><pre><span class="line">$ hexo <span class="keyword">server</span></span><br></pre></td></tr></table></figure>
+<p>输入命令后，浏览器输入<em><code>http://localhost:4000/</code></em>即可浏览。</p>
+<h2 id="部署服务器命令（如github）">部署服务器命令（如github）</h2><figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo deloy</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>这是我使用<a href="http://hexo.io/">Hexo</a>后创建的第一个页面！这是内容页，我在测试文章的发布功能。</p>
+<h1 id="使用后感">使用后感</h1><h2 id="优点">优点</h2><ul>
+<li>网站配置过程中还是相当便利的，几条简单命令，一些简单的配置（复制粘贴），基本就可以生成一个比较不错的站点了（当然这得益<a href="https://github.com/hexojs/hexo/wiki/Themes">Hexo主题</a>啦！）</li>
+<li>自带Markdown写作格式，让博主更方便地创造内容，已不用再关注排版，更抛离了传统的后台内容写作方式，随便一个编辑器就可以创作你的神文啦。不过还是需要懂得基本的Markdown格式，不然没有效果哦。<h2 id="缺点">缺点</h2></li>
+<li>没有了传统网站后台编辑器的便利，添加文章后，需要寻找相应的md文件去修改内容，才能显示到内容。</li>
+<li>所用添加文章，生成内容等等，没有了人性化的UI界面，全部需要运行命令来解决，建站入门门槛相对的高。]]>
+    
+    </summary>
+    
+      <category term="hexo posts" scheme="http://miansword.com/tags/hexo-posts/"/>
+    
+      <category term="how to use hexo" scheme="http://miansword.com/tags/how-to-use-hexo/"/>
+    
+      <category term="hexo" scheme="http://miansword.com/categories/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hexo使用命令介绍]]></title>
+    <link href="http://miansword.com/hexo/hello-world/"/>
+    <id>http://miansword.com/hexo/hello-world/</id>
+    <published>2015-05-19T09:20:10.000Z</published>
+    <updated>2015-05-26T00:26:07.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<br>]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://miansword.com/categories/hexo/"/>
+    
+  </entry>
+  
+</feed>
