@@ -174,7 +174,7 @@ body {
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   z-index: 1;
-  background: url("images/bg.png");
+  background: #f9f9f9;
 }
 .mobile-nav-on #wrap {
   left: 280px;
