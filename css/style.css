@@ -19,7 +19,7 @@ header h1 a:hover{color:#999;transition:color .6s;}
 #user_logo img{border-radius: 120px;width: 100px;height: 100px;transform:rotate(0deg);transition:1s;box-shadow: 0 0 8px #ccc;/*border:5px solid #555;*/}
 #user_logo img:hover{transform:rotate(360deg);transition:1s;}
 .main{margin-top: 25px;}
-.post{overflow: hidden;border:1px solid #e3e3e3;padding:10px 15px 15px;border-radius: 10px;background: #fefefe;box-shadow: 0px 1px 3px #efefef;margin-bottom: 35px;}
+.post,#comments{overflow: hidden;border:1px solid #e3e3e3;padding:10px 15px 15px;border-radius: 10px;background: #fefefe;box-shadow: 0px 1px 3px #efefef;margin-bottom: 35px;}
 .post h1.title{margin:10px 0 20px;}
 .post h1.title,.post h1.title a{color:#333;}
 .post h1.title,.post h1.title a{font-size: 22px;font-weight: bold;}
