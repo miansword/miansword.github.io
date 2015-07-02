@@ -205,6 +205,8 @@ header h1 a:hover{color:#999;transition:color .6s;}
   padding-left: 9px;
   padding-rigth: 9px;
   font-size: 14px;
+  padding:10px;
+  margin-bottom:10px;
 }
 .a-cont blockquote p {
   margin: 0;
