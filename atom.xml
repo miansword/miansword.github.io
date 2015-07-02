@@ -4,7 +4,7 @@
   <subtitle><![CDATA[十年磨剑不为名，千锤不芒又如何]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://miansword.com/"/>
-  <updated>2015-07-02T05:25:17.000Z</updated>
+  <updated>2015-07-02T08:50:03.000Z</updated>
   <id>http://miansword.com/</id>
   
   <author>
@@ -15,11 +15,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[css如何水平垂直居中]]></title>
+    <link href="http://miansword.com/css/css-how-to-center/"/>
+    <id>http://miansword.com/css/css-how-to-center/</id>
+    <published>2015-07-02T07:22:57.000Z</published>
+    <updated>2015-07-02T08:50:03.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xjh3u.com1.z0.glb.clouddn.com/how-to-css-horizontal-vertical.jpg" alt="css-horizontal-vertical"></p>
+<p>平时，写页面的时候，什么水平居中，垂直居中，用css都是分分钟搞掂的事，但是如果是块元素同时水平居中垂直居中，只用css的情况，有没有办法解决呢？最近，自己写页面的时候，就有这么一个需求，因为平时都不常用，瞬间就懵了，只好求助万能的百度（谷歌）。<br><a id="more"></a><br>下面是自己测试过的水平垂直居中的方案。</p>
+<h2 id="方法一：固定宽高的水平垂直居中">方法一：固定宽高的水平垂直居中</h2><p>html代码：<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"wrap"</span>&gt;</span></span><br><span class="line">    我是要居中的块块</span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>css代码：<br><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="id">#wrap</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">200px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">200px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">background</span>:<span class="value"> <span class="hexcolor">#000</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">position</span>:<span class="value"> absolute</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">top</span>:<span class="value"><span class="number">50%</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">left</span>:<span class="value"><span class="number">50%</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">margin-left</span>:<span class="value">-<span class="number">100px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">margin-top</span>:<span class="value">-<span class="number">100px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#fff</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">text-align</span>:<span class="value">center</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">line-height</span>:<span class="value"><span class="number">200px</span></span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>效果展示：</p>
+<p></p><p data-height="257" data-theme-id="16445" data-slug-hash="wayrEv" data-default-tab="result" data-user="miansword" class="codepen">See the Pen <a href="http://codepen.io/miansword/pen/wayrEv/" target="_blank" rel="external">css水平垂直居中一</a> by miansword (<a href="http://codepen.io/miansword" target="_blank" rel="external">@miansword</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="方法二：固定宽高的水平垂直居中">方法二：固定宽高的水平垂直居中</h2><p>html代码：<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"wrap"</span>&gt;</span></span><br><span class="line">   我是要居中的块块</span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>css代码:<br><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="id">#wrap</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">200px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">200px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">background</span>:<span class="value"> <span class="hexcolor">#000</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">position</span>:<span class="value"> absolute</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">top</span>:<span class="value"><span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">left</span>:<span class="value"><span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">right</span>:<span class="value"><span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">bottom</span>:<span class="value"><span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">margin</span>:<span class="value">auto</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#fff</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">text-align</span>:<span class="value">center</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">line-height</span>:<span class="value"><span class="number">200px</span></span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>效果展示：</p>
+<p></p><p data-height="257" data-theme-id="16445" data-slug-hash="zGREdw" data-default-tab="result" data-user="miansword" class="codepen">See the Pen <a href="http://codepen.io/miansword/pen/zGREdw/" target="_blank" rel="external">css水平垂直居中二</a> by miansword (<a href="http://codepen.io/miansword" target="_blank" rel="external">@miansword</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://7xjh3u.com1.z0.glb.clouddn.com/how-to-css-horizontal-vertical.jpg" alt="css-horizontal-vertical"></p>
+<p>平时，写页面的时候，什么水平居中，垂直居中，用css都是分分钟搞掂的事，但是如果是块元素同时水平居中垂直居中，只用css的情况，有没有办法解决呢？最近，自己写页面的时候，就有这么一个需求，因为平时都不常用，瞬间就懵了，只好求助万能的百度（谷歌）。<br>]]>
+    
+    </summary>
+    
+      <category term="css居中" scheme="http://miansword.com/tags/css%E5%B1%85%E4%B8%AD/"/>
+    
+      <category term="css水平垂直居中" scheme="http://miansword.com/tags/css%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/"/>
+    
+      <category term="css" scheme="http://miansword.com/categories/css/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Hexo系统建站快速入门]]></title>
     <link href="http://miansword.com/hexo/new-hexo/"/>
     <id>http://miansword.com/hexo/new-hexo/</id>
     <published>2015-05-19T09:24:08.000Z</published>
-    <updated>2015-07-02T05:25:17.000Z</updated>
+    <updated>2015-07-02T07:20:46.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://7xjh3u.com1.z0.glb.clouddn.com/new-hexo-1.jpg" alt="Hexo"><br>最近使用了<a href="http://hexo.io" target="_blank" rel="external">Hexo</a>建了自己的一个<a href="http://miansword.com" target="_blank" rel="external">博客</a>,使用过程中，<a href="http://hexo.io" target="_blank" rel="external">Hexo</a>给人感觉是一种舒畅感，一气呵成的，复制粘贴几条便轻松轻松地建立起自己的博客。而且，<a href="http://hexo.io" target="_blank" rel="external">Hexo</a>是一个静态博客系统，可以省去了配置数据库的问题，再利用<a href="https://pages.github.com/" target="_blank" rel="external">Github Pages</a>服务,有省去了挑选空间的时间更空间租用费用，基本可以零成本建立起一个属于自己的博客了。<br><a id="more"></a></p>
 <h2 id="HEXO到时是啥">HEXO到时是啥</h2><blockquote>
 <p>Hexo is a fast, simple &amp; powerful blog framework powered by Node.js.</p>
