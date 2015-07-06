@@ -22,7 +22,7 @@ header h1 a:hover{color:#999;transition:color .6s;}
 .post,#comments{overflow: hidden;border:1px solid #e3e3e3;padding:10px 15px 15px;border-radius: 10px;background: #fefefe;box-shadow: 0px 1px 3px #efefef;margin-bottom: 35px;}
 .post h1.title{margin:10px 0 20px;}
 .post h1.title,.post h1.title a{color:#333;}
-.post h1.title,.post h1.title a{font-size: 22px;font-weight: bold;}
+.post h1.title,.post h1.title a{font-size: 26px;font-weight: bold;}
 .post p{padding:10px 0;line-height: 24px;}
 .cate:before{content:"";display:inline-block;width: 5px;height: 5px;border-radius: 100px;background: #666;margin:0 5px;vertical-align: middle;}
 .cate a{color:#666;}
